@@ -10,7 +10,19 @@ import (
 func New(file string) Config {
 	return Config{file: file}
 }
+func (c *Config) NewStr (str string) {
+        if c.maps == nil {
+	
 
+	
+
+		panic(err)
+
+	}
+	
+	}
+
+}
 type Config struct {
 	file string
 	maps map[string]interface{}
